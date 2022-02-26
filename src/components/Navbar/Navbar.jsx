@@ -53,11 +53,21 @@ const Navbar = () => {
       </div>
       <div className={nav ? "mobile-menu active" : "mobile-menu"}>
         <ul className="mobile-nav">
-          <li>Home</li>
-          <li>Destination</li>
-          <li>Traval</li>
-          <li>Book</li>
-          <li>Views</li>
+          <Link to="home" smooth={true} duration={500}>
+            <li>Home</li>
+          </Link>
+          <Link to="destinations" smooth={true} duration={500}>
+            <li>Destination</li>
+          </Link>
+          <Link to="travel" smooth={true} duration={500}>
+            <li>Travel</li>
+          </Link>
+          <Link to="book" smooth={true} duration={500}>
+            <li>Book</li>
+          </Link>
+          <Link to="view" smooth={true} duration={500}>
+            <li>Views</li>
+          </Link>
         </ul>
         <div className="mobile-menu-bottom">
           <div className="menu-icon">
