@@ -18,6 +18,7 @@
 .search .box {
   /* display: flex;
   flex-direction: column; */
+  text-align: center;
   max-width: 310px;
   align-items: center;
   margin: auto;
@@ -67,4 +68,22 @@ select {
 }
 .search button{
     margin: 0.4rem;
+}
+
+@media screen and (max-width: 940px) {
+    .search .container{
+        grid-template-columns: 1fr;
+    }
+    .search-col-2{
+        grid-template-columns: 1fr;
+    }
+    .search .right{
+        max-width: 100%;
+    }
+    .search form{
+        width:100%;
+    }
+    .search .date{
+        flex-direction: column;
+    }
 }

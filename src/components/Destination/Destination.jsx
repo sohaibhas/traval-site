@@ -8,7 +8,7 @@ import "./Destination.css";
 
 const Destination = () => {
   return (
-    <div className="destination">
+    <div name="destinations" className="destination">
       <div className="container">
         <h1>All-Inclusive Resorts</h1>
         <p>On the Caribbean's Best Beaches</p>
